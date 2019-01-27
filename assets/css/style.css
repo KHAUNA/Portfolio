@@ -1,0 +1,88 @@
+#my-name-p1 {
+    background-color: white;
+    width: 1000px;
+    margin-left:17%;
+    height: 8%;
+    opacity: 0.9;
+}
+#picture-div {
+    /* background-color: red; */
+    width: 1000px;
+    height: 600px;
+    margin-left:17%;
+    display: flex;
+    flex-wrap: wrap;
+}
+body {
+    background-image: url("../images/bubble\ chamber.jpg");
+    background-size: contain;
+}
+#pic-block-1 {
+    background-image: url("../images/restomod\ celica.jpg");
+}
+#pic-block-2 {
+    background-image: url("../images/energy\ efficiency.jpg");
+    max-width: 100%;
+    height: auto;
+}
+#pic-block-3 {
+    background-image: url("../images/project\ image.JPG");
+    background-size: contain;
+}
+#pic-block-4 {
+    background-image: url("../images/dev\ img\ 2.JPG");
+}
+.pic-block {
+    opacity: 0.95;
+    background-repeat: no-repeat; 
+    filter: grayscale(70%);
+    transition: .5s ease;
+    backface-visibility: hidden;
+    width: 46%;
+    height: 42%;
+    margin: 2%;
+}
+.pic-block-heading {
+    /* background-color: white; */
+    color: white;
+    opacity: 0.95;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.hidden-button {
+    opacity: 0;
+    padding-left: 30%;
+    padding-top: 12%;
+    /* transform: translate(-50%, -50%); */
+    /* -ms-transform: translate(-50%, -50%) */
+}
+.pic-block:hover .hidden-button {
+    opacity: 1;
+}
+.hidden-button-text {
+    font-size: 30px;
+    background-color: grey;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.pic-block:hover {
+    opacity: 0.5;
+}
+#linkedin {
+    color: black;
+}
+
+@media (max-width:600px) {
+    #picture-div{
+        width: 300px;
+        height: 100px;
+    }
+}
+

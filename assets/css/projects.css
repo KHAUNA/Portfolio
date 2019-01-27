@@ -1,0 +1,30 @@
+body {
+    background-image: url("../images/bubble\ chamber.jpg");
+    background-attachment: fixed;
+}
+#github {
+    margin:20px 0px 20px 300px;
+    background-color:white;
+    width:400px;
+    opacity: 0.75;
+}
+.git-project {
+    width: 600px;
+    height:300px;
+    margin: 20px 0px 20px 300px;
+}
+.git-link {
+    margin: 20px;
+}
+#train-scheduler {
+    background-image: url(https://i.gifer.com/EbN0.gif);
+}
+#giftastic {
+    background-image: url(https://techcrunch.com/wp-content/uploads/2015/06/gifgif.gif?w=1390&crop=1);
+}
+#travelers-dashboard {
+    background-image: url(https://loading.io/spinners/rainy/lg.rainy-preloader.gif);
+    background-repeat: no-repeat; 
+}
+
+

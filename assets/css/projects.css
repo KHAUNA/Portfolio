@@ -1,6 +1,7 @@
 body {
     background-image: url("../images/bubble\ chamber.jpg");
     background-attachment: fixed;
+    background-size: cover;
 }
 #github {
     margin:20px 0px 20px 300px;
@@ -23,8 +24,10 @@ body {
     background-image: url(https://techcrunch.com/wp-content/uploads/2015/06/gifgif.gif?w=1390&crop=1);
 }
 #travelers-dashboard {
-    background-image: url(https://loading.io/spinners/rainy/lg.rainy-preloader.gif);
+    background-image: url(https://cdn.dribbble.com/users/68746/screenshots/1443029/travel_v5.gif);
     background-repeat: no-repeat; 
+    background-size: cover;
+}
 }
 
 

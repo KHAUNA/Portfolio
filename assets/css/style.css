@@ -7,15 +7,16 @@
 }
 #picture-div {
     /* background-color: red; */
-    width: 1000px;
-    height: 600px;
+    width: 900px;
+    height: 500px;
     margin-left:17%;
+    margin-top:30px;
     display: flex;
     flex-wrap: wrap;
 }
 body {
     background-image: url("../images/bubble\ chamber.jpg");
-    background-size: contain;
+    background-size: cover;
 }
 #pic-block-1 {
     background-image: url("../images/restomod\ celica.jpg");
@@ -34,18 +35,16 @@ body {
 }
 .pic-block {
     opacity: 0.95;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    background-size:cover; 
     filter: grayscale(70%);
     transition: .5s ease;
-    backface-visibility: hidden;
     width: 46%;
     height: 42%;
     margin: 2%;
 }
-.pic-block-heading {
-    /* background-color: white; */
+.pic-links {
     color: white;
-    opacity: 0.95;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -62,23 +61,21 @@ body {
 .pic-block:hover .hidden-button {
     opacity: 1;
 }
-.hidden-button-text {
-    font-size: 30px;
-    background-color: grey;
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
+
 .pic-block:hover {
     opacity: 0.5;
 }
-#linkedin {
-    color: black;
+.text-block {
+    background-color: lightgray;
+    margin-top: 23%;
+    height: 40px;
+    display:flex;
+    opacity: 0.9;
+    align-content: center;
 }
-
+.pic-links {
+    text-decoration: none;
+}
 @media (max-width:600px) {
     #picture-div{
         width: 300px;

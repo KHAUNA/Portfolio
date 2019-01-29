@@ -6,21 +6,89 @@
         <title>Projects</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- JQUERY & POPPER -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <!-- CSS -->
         <link rel="stylesheet" href="./assets/css/projects.css">
 </head>
 <body>
-<header id="header-top">
-    <button>
-        <a href="../Portfolio/index.html" style=text-decoration:none;>HOME</a>
-    </button>
-</header>
-<div id="github">
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white mt-4">
+                    <a class="navbar-brand text-warning" href="#">projects</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Portfolio/portfolio.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="#">Projects<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Portfolio/resume.html">Professional Expertise</a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+    </header>
+
+    <div id="github-card" class="card m-5" style="width: 25rem;">
+            <img class="card-img-top" src="https://developer.github.com/assets/images/header-animation.gif" alt="Card image cap">
+            <div class="card-body bg-dark">
+                <a class = "git-link" href="https://github.com/KHAUNA"  target="_blank" style=text-decoration:none;>GitHub</a>
+                <p class="card-text text-white">See my GitHub pages for project code and more.</p>
+            </div>
+        </div> 
+
+    <div id="travelers-card" class="card m-5" style="width: 25rem;">
+        <img class="card-img-top" src="https://cdn.dribbble.com/users/68746/screenshots/1443029/travel_v5.gif" alt="Card image cap">
+        <div class="card-body bg-dark">
+            <a class = "git-link" href="https://mike929.github.io/Project1/"  target="_blank" style=text-decoration:none;>Traverlers Dashboard</a>
+            <p class="card-text text-white">Determine your destinations 7 day forecast and find the best restaurants nearby!</p>
+        </div>
+    </div> 
+
+    <div id="train-card" class="card m-5" style="width: 25rem;">
+        <img class="card-img-top" src="https://i.gifer.com/EbN0.gif" alt="Card image cap">
+        <div class="card-body bg-dark">
+            <a class = "git-link" href="https://khauna.github.io/Train-Scheduler/"  target="_blank" style=text-decoration:none;>Train Scheduler App</a>
+            <p class="card-text text-white">Add trains and schedules to determine when the next one will arrive</p>
+        </div>
+    </div>  
+    
+    <div id="giftastic-card" class="card m-5" style="width: 25rem;">
+        <img class="card-img-top" src="https://techcrunch.com/wp-content/uploads/2015/06/gifgif.gif?w=1390&crop=1" alt="Card image cap">
+        <div class="card-body bg-dark">
+            <a class = "git-link" href="https://khauna.github.io/GIFtastic/"  target="_blank" style=text-decoration:none;>GifTastic</a>
+            <p class="card-text text-white">Search the best internet gifs! Powered by the Gify API!</p>
+        </div>
+    </div>   
+
+
+<!-- <div id="github">
     <h2>Email: jtwinturbo@gmail.com</h2>
-    <a href="https://github.com/KHAUNA"  target="_blank" style=text-decoration:none;>My GitHub Page</a>
-</div>
-<div id="projects-div">
+    <a class = "git-link" href="https://github.com/KHAUNA"  target="_blank" style=text-decoration:none;>My GitHub Page</a>
+</div> -->
+
+
+
+
+
+
+
+
+<!-- <div id="projects-div">
     <div class="git-project" id="train-scheduler">
-        <!-- https://i.gifer.com/EbN0.gif -->
+        https://i.gifer.com/EbN0.gif
         <a class = "git-link" href="https://khauna.github.io/Train-Scheduler/"  target="_blank" style=text-decoration:none;>Train Scheduler App</a>
 
     </div>
@@ -33,6 +101,6 @@
 
     </div>
 
-</div>
+</div> -->
 </body>
 </html>

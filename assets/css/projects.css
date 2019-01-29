@@ -1,33 +1,25 @@
 body {
-    background-image: url("../images/bubble\ chamber.jpg");
+    background-image: url("../images/bubble\ chamber\ tilted.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
-#github {
-    margin:20px 0px 20px 300px;
-    background-color:white;
-    width:400px;
+.card {
     opacity: 0.75;
 }
-.git-project {
-    width: 600px;
-    height:300px;
-    margin: 20px 0px 20px 300px;
-}
+
+
 .git-link {
     margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
-#train-scheduler {
-    background-image: url(https://i.gifer.com/EbN0.gif);
-}
-#giftastic {
-    background-image: url(https://techcrunch.com/wp-content/uploads/2015/06/gifgif.gif?w=1390&crop=1);
-}
-#travelers-dashboard {
-    background-image: url(https://cdn.dribbble.com/users/68746/screenshots/1443029/travel_v5.gif);
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-}
+
+
 
 

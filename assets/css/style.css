@@ -44,7 +44,9 @@ body {
     margin: 2%;
 }
 .pic-links {
+    text-decoration: none;
     color: white;
+    font-size: 30px;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -72,9 +74,7 @@ body {
     display:flex;
     opacity: 0.9;
     align-content: center;
-}
-.pic-links {
-    text-decoration: none;
+    flex:column;
 }
 @media (max-width:600px) {
     #picture-div{
